@@ -1,0 +1,95 @@
+
+/*==================
+    google font
+ ===================  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,500&family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+
+}
+/*=================================
+    borwser default style remove
+ ================================== */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    
+    
+}
+.navigation{
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 1em;
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+    font-weight: 700;
+}
+.parents{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.875em;
+
+} */
+
+
+.main-1{
+    display: flex;
+    padding: 100px;
+    margin: 100px;
+}
+
+    
+.heading-1{
+    font-size: 60px;
+    color: rgb(54, 51, 51);
+    padding-bottom: 10px;
+}
+.paragraph-1{
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+    
+
+
+button{
+    padding: 15px;
+    margin: 20px;
+    width: 250px;
+    height: 55px;
+    background-color:#E02C6D;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: large;
+}
+    
+
+
+
+
+
+
+
