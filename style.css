@@ -24,40 +24,16 @@ body{
 
 
 
-/* nav{
-    display: flex;
-    justify-content: space-between;
-    height: 200px;
-    align-items: center;
-    
-    
-}
-.navigation{
-    display: flex;
-}
-
-.navigation li {
-    list-style: none;
-    margin: 1em;
-}
-.navigation li a{
-    text-decoration: none;
-    font-size: 1.25em;
-    color: black;
-    font-weight: 700;
-}
-.parents{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.875em;
-
-} */
+/*===================
+    First section
+ ====================  */
 
 
 .main-1{
     display: flex;
     padding: 100px;
     margin: 100px;
+    
 }
 
     
@@ -69,24 +45,39 @@ body{
 .paragraph-1{
     font-size: 1.2em;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 2.5em;
 }
     
-
+/*=================
+    button start
+ ==================*/
 
 button{
-    padding: 15px;
-    margin: 20px;
-    width: 250px;
-    height: 55px;
-    background-color:#E02C6D;
+    width: 15.625em;
+    line-height: 3.125em;
+    text-align: center;
     border: none;
-    border-radius: 25px;
+    padding: 8px;
+    border-radius: 2.1875em;
+    background-color: #E02C6D;
+    font-size: 1.25em;
     color: white;
-    font-size: large;
+    cursor: pointer;
 }
-    
 
+
+    button:hover{
+        background-color: #4d0f24;
+        text-shadow:0.5px 3px 3px; 
+        font-size: 1.30em;
+        transition: 1s ease-in-out;
+    }
+
+
+
+/*=================
+    button close
+ ==================*/
 
 
 
