@@ -265,3 +265,35 @@ h3{
 /* ========================
         footer close
 ============================*/
+
+
+/*===================== 
+   media querieds start
+========================= */
+
+
+@media only screen and (max-width:688px) {
+    .main-1{
+        height: 100%;
+    }
+    
+    
+    .parent-1{
+        background-color: turquoise;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .parent-1{
+        display: none;
+    }
+
+    .Tripod{
+        flex-direction: column;
+    }
+}
+
+
+
+/*===================== 
+   media querieds close
+========================= */
