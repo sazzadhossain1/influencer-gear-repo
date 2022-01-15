@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Playfair Display', serif;
+    
 
 }
 /*=================================
@@ -20,8 +21,13 @@ body{
 }
 
 
-
-
+/*======================
+        parent
+========================*/
+.parent-1 img{
+    margin-left: 100px;
+    padding-left: 170px;
+}
 
 
 /*===================
@@ -30,10 +36,10 @@ body{
 
 
 .main-1{
-    display: flex;
-    padding: 100px;
-    margin: 100px;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    margin: 200px;
 }
 
     
@@ -81,6 +87,181 @@ button{
 
 
 
+ /*=================
+    second part start
+======================*/
+h1{
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-right: 20vh;
+    color: rgb(71, 68, 68);
+}
+
+h2{
+    padding: 10px;
+}
+
+.tripod-price{
+    padding: 10px;
+}
+
+
+.tripod-reating{
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    
+}
+
+.flex-Tripod{
+    margin-left: 200px;
+    box-shadow: 0 30px 35px rgb(0, 0, 2);
+    border-radius: 10px;
+}
+    
+.tripod{
+    justify-content: center;
+    
+}
+
+.Tripod img{
+    border-radius: 10px;
+    
+}
+
+
+.tripod-paragraph{
+    width: 250px;
+}
+
+.Tripod .Tripod-banner img{
+    width: 250px;
+    height: 230px;
+}
+
+
+.tripod-reating{
+    display: flex;
+    align-items: center;
+}
+
+.fa-star{
+    font-size: 10px;
+}
+.fa-star.fild-star{
+    color:  rgb(255, 120, 71);
+}
+
+
+.fa-star.halfempty-star{
+    color:  #969393;
+}
+
+span{
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+}
+
+.tripod-paragraph{
+    color: rgb(73, 70, 70);
+    
+}
 
 
 
+.button a{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-right: 440px;   
+}
+
+
+.button{
+    text-align: right;
+    padding-bottom: 200px;
+}
+
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+
+/* =======================
+       animation start
+===========================  */
+.img{
+    max-width: 200px;
+    height: auto;
+    border: 2px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    
+}
+
+
+
+
+@keyframes img-animation {
+    from{
+        max-width: 200px;
+    }
+
+    to{
+        max-width: 400px;
+    }
+}
+
+
+.img:hover{
+    animation-name: img-animation;
+    animation-duration: 5s;
+}
+
+
+
+
+/* =======================
+       animation close
+===========================  */
+
+
+
+/* ========================
+        footer start
+============================*/
+
+.footer{
+    text-align: center;
+    background-color: rgb(5, 5, 65);
+    color: white;padding-bottom: 100px;
+    padding-top: 50px;
+}
+.footer-heading{
+    padding-top: 50px;
+}
+.footer-paragraph{
+    padding-bottom: 10px;
+}
+
+
+.footer-icone i{
+    padding: 10px;
+}
+
+/* ========================
+        footer close
+============================*/
